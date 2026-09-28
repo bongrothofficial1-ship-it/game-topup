@@ -1,0 +1,30 @@
+
+> web@0.1.0 build C:\Users\rothk\OneDrive\Desktop\Web\game-topup\apps\web
+> next build
+
+▲ Next.js 16.3.6 (Turbopack)
+✓ Running next.config.ts took 529ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.8min
+  Running TypeScript ...
+  Finished TypeScript in 32.0s ...
+  Collecting page data using 1 worker ...
+  Generating static pages using 1 worker (0/6) ...
+  Generating static pages using 1 worker (1/6) 
+  Generating static pages using 1 worker (2/6) 
+  Generating static pages using 1 worker (4/6) 
+✓ Generating static pages using 1 worker (6/6) in 2.0s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ○ /admin
+├ ƒ /games/[slug]
+└ ○ /orders
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
