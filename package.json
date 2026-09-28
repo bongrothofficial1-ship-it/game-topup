@@ -2,7 +2,7 @@
   "name": "game-topup",
   "private": true,
   "scripts": {
-    "build": "prisma generate && turbo run build",
+    "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "prisma:generate": "prisma generate",
