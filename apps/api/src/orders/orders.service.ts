@@ -49,7 +49,7 @@ export class OrdersService {
 
     const orderNumber = `ORD-${Date.now()}-${Math.floor(1000 + Math.random() * 9000)}`;
 
-    return this.prisma.$transaction(async (tx) => {
+    return this.prisma.$transaction(async (tx: any) => {
       const order = await tx.order.create({
         data: {
           orderNumber,

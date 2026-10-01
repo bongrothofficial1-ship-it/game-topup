@@ -62,7 +62,7 @@ export class PaymentsService {
   }
 
   async simulateSuccess(paymentId: string) {
-    const result = await this.prisma.$transaction(async (tx) => {
+    const result = await this.prisma.$transaction(async (tx: any) => {
       const payment = await tx.payment.update({
         where: { id: paymentId },
         data: {
